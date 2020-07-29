@@ -1,0 +1,874 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.TemerLoh.wooboxTestApp"
+4    android:versionCode="14"
+5    android:versionName="6.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:10:5-80
+16-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:10:22-77
+17
+18    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+19    <permission
+19-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:7:5-9:47
+20        android:name="com.TemerLoh.wooboxTestApp.permission.C2D_MESSAGE"
+20-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:8:9-63
+21        android:protectionLevel="signature" />
+21-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:9:9-44
+22
+23    <uses-permission android:name="com.TemerLoh.wooboxTestApp.permission.C2D_MESSAGE" />
+23-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:11:5-79
+23-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:11:22-76
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+24-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:17:5-82
+24-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:17:22-79
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:18:5-68
+25-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:18:22-65
+26    <!--
+27 Required so the device vibrates on receiving a push notification.
+28         Vibration settings of the device still apply.
+29    -->
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:23:5-66
+30-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:23:22-63
+31    <!--
+32 Use to restore notifications the user hasn't interacted with.
+33         They could be missed notifications if the user reboots their device if this isn't in place.
+34    -->
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+35-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:29:5-81
+35-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:29:22-78
+36    <!-- Samsung -->
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+37-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:31:5-86
+37-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:31:22-83
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+38-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:32:5-87
+38-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:32:22-84
+39    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+39-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:33:5-81
+39-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:33:22-78
+40    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+40-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:34:5-83
+40-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:34:22-80
+41    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+41-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:35:5-88
+41-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:35:22-85
+42    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+42-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:36:5-92
+42-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:36:22-89
+43    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+43-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:37:5-84
+43-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:37:22-81
+44    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+44-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:38:5-83
+44-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:38:22-80
+45    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+45-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:39:5-91
+45-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:39:22-88
+46    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+46-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:40:5-92
+46-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:40:22-89
+47    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+47-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:41:5-93
+47-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:41:22-90
+48    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+48-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:42:5-73
+48-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:42:22-70
+49    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:43:5-82
+49-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:43:22-79
+50    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+50-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:44:5-83
+50-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:44:22-80
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+51-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:45:5-88
+51-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:45:22-85
+52    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+52-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:46:5-89
+52-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:46:22-86
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+53-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+54
+55    <application
+55-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:12:5-173:19
+56        android:name="com.iqonic.woobox.WooBoxApp"
+56-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:13:9-34
+57        android:allowBackup="true"
+57-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:14:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:24:18-86
+59        android:debuggable="true"
+60        android:fullBackupContent="true"
+60-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:15:9-41
+61        android:icon="@mipmap/ic_launcher"
+61-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:16:9-43
+62        android:label="@string/app_name"
+62-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:17:9-41
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:18:9-54
+64        android:supportsRtl="true"
+64-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:19:9-35
+65        android:testOnly="true"
+66        android:theme="@style/AppTheme"
+66-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:20:9-40
+67        android:usesCleartextTraffic="true" >
+67-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:21:9-44
+68        <activity
+68-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:22:9-23:51
+69            android:name="com.iqonic.woobox.activity.BlogDetailActivity"
+69-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:22:19-62
+70            android:screenOrientation="portrait" />
+70-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:23:13-49
+71        <activity
+71-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:24:9-25:51
+72            android:name="com.iqonic.woobox.activity.AboutActivity"
+72-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:24:19-57
+73            android:screenOrientation="portrait" />
+73-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:25:13-49
+74
+75        <meta-data
+75-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:26:9-27:54
+76            android:name="com.facebook.sdk.ApplicationId"
+76-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:26:20-65
+77            android:value="@string/facebook_app_id" />
+77-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:27:13-52
+78
+79        <activity
+79-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:29:9-32:48
+80            android:name="com.facebook.FacebookActivity"
+80-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:29:19-63
+81            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+81-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:30:13-113
+82            android:label="@string/app_name"
+82-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:32:13-45
+83            android:theme="@style/com_facebook_activity_theme" />
+83-->[com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+84        <activity
+84-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:33:9-42:20
+85            android:name="com.facebook.CustomTabActivity"
+85-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:34:13-58
+86            android:exported="true" >
+86-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:35:13-36
+87            <intent-filter>
+87-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:36:13-41:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:37:17-69
+88-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:37:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:38:17-76
+90-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:38:27-73
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:39:17-78
+91-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:39:27-75
+92
+93                <data android:scheme="@string/fb_login_protocol_scheme" />
+93-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:40:17-75
+93-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:40:23-72
+94            </intent-filter>
+95        </activity>
+96        <!-- Enable only if you are want Admob support -->
+97        <meta-data
+97-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:44:9-46:53
+98            android:name="com.google.android.gms.ads.APPLICATION_ID"
+98-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:45:13-69
+99            android:value="@string/ad_mob_app_id" />
+99-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:46:13-50
+100        <meta-data
+100-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:47:9-49:55
+101            android:name="com.razorpay.ApiKey"
+101-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:48:13-47
+102            android:value="rzp_test_Y4mSmdW0LMGQn0" />
+102-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:49:13-52
+103
+104        <activity
+104-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:50:9-51:58
+105            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+105-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:50:19-82
+106            android:theme="@style/Base.Theme.AppCompat" />
+106-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:51:13-56
+107        <activity
+107-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:52:9-61:20
+108            android:name="com.iqonic.woobox.activity.SplashActivity"
+108-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:53:13-52
+109            android:screenOrientation="portrait" >
+109-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:54:13-49
+110            <intent-filter>
+110-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:55:13-60:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:56:17-69
+111-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:56:25-66
+112                <action android:name="android.intent.action.VIEW" />
+112-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:37:17-69
+112-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:37:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:59:17-77
+114-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:59:27-74
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:62:9-64:52
+118            android:name="com.iqonic.woobox.activity.SubCategoryActivity"
+118-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:63:13-57
+119            android:screenOrientation="portrait" />
+119-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:64:13-49
+120        <activity
+120-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:65:9-67:52
+121            android:name="com.iqonic.woobox.activity.ProductDetailActivityNew"
+121-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:66:13-62
+122            android:screenOrientation="portrait" />
+122-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:67:13-49
+123        <activity android:name="com.iqonic.woobox.AppBaseActivity" />
+123-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:68:9-53
+123-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:68:19-50
+124        <activity
+124-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:69:9-72:67
+125            android:name="com.iqonic.woobox.activity.SignInUpActivity"
+125-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:70:13-54
+126            android:screenOrientation="portrait"
+126-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:71:13-49
+127            android:windowSoftInputMode="stateHidden|adjustPan" />
+127-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:72:13-64
+128        <activity
+128-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:73:9-75:58
+129            android:name="com.iqonic.woobox.activity.OTPActivity"
+129-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:74:13-49
+130            android:windowSoftInputMode="stateVisible" />
+130-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:75:13-55
+131        <activity
+131-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:76:9-78:52
+132            android:name="com.iqonic.woobox.activity.WalkThroughActivity"
+132-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:77:13-57
+133            android:screenOrientation="portrait" />
+133-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:78:13-49
+134        <activity
+134-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:79:9-82:55
+135            android:name="com.iqonic.woobox.activity.DashBoardActivity"
+135-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:80:13-55
+136            android:screenOrientation="portrait"
+136-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:81:13-49
+137            android:windowSoftInputMode="adjustPan" />
+137-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:82:13-52
+138        <activity
+138-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:83:9-85:52
+139            android:name="com.iqonic.woobox.activity.OrderDescriptionActivity"
+139-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:84:13-62
+140            android:screenOrientation="portrait" />
+140-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:85:13-49
+141        <activity
+141-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:86:9-88:52
+142            android:name="com.iqonic.woobox.activity.OrderActivity"
+142-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:87:13-51
+143            android:screenOrientation="portrait" />
+143-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:88:13-49
+144        <activity
+144-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:89:9-92:51
+145            android:name="com.iqonic.woobox.activity.ProductDetailActivity"
+145-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:90:13-59
+146            android:screenOrientation="portrait"
+146-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:92:13-49
+147            android:theme="@style/CollapsingTheme" />
+147-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:91:13-51
+148        <activity
+148-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:93:9-95:52
+149            android:name="com.iqonic.woobox.activity.BlogActivity"
+149-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:94:13-50
+150            android:screenOrientation="portrait" />
+150-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:95:13-49
+151        <activity
+151-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:96:9-98:52
+152            android:name="com.iqonic.woobox.activity.AddAddressActivity"
+152-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:97:13-56
+153            android:screenOrientation="portrait" />
+153-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:98:13-49
+154        <activity
+154-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:99:9-101:52
+155            android:name="com.iqonic.woobox.activity.OrderSummaryActivity"
+155-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:100:13-58
+156            android:screenOrientation="portrait" />
+156-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:101:13-49
+157        <activity
+157-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:102:9-104:52
+158            android:name="com.iqonic.woobox.activity.TrackItemActivity"
+158-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:103:13-55
+159            android:screenOrientation="portrait" />
+159-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:104:13-49
+160        <activity
+160-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:105:9-107:52
+161            android:name="com.iqonic.woobox.activity.PaymentActivity"
+161-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:106:13-53
+162            android:screenOrientation="portrait" />
+162-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:107:13-49
+163        <activity
+163-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:108:9-111:57
+164            android:name="com.iqonic.woobox.activity.AccountActivity"
+164-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:109:13-53
+165            android:screenOrientation="portrait"
+165-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:110:13-49
+166            android:windowSoftInputMode="stateHidden" />
+166-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:111:13-54
+167        <activity
+167-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:112:9-114:52
+168            android:name="com.iqonic.woobox.activity.MyCartActivity"
+168-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:113:13-52
+169            android:screenOrientation="portrait" />
+169-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:114:13-49
+170        <activity
+170-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:115:9-117:52
+171            android:name="com.iqonic.woobox.activity.SearchActivity"
+171-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:116:13-52
+172            android:screenOrientation="portrait" />
+172-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:117:13-49
+173        <activity
+173-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:118:9-120:52
+174            android:name="com.iqonic.woobox.activity.ViewAllProductActivity"
+174-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:119:13-60
+175            android:screenOrientation="portrait" />
+175-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:120:13-49
+176        <activity
+176-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:121:9-123:52
+177            android:name="com.iqonic.woobox.activity.RewardActivity"
+177-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:122:13-52
+178            android:screenOrientation="portrait" />
+178-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:123:13-49
+179        <activity
+179-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:124:9-126:52
+180            android:name="com.iqonic.woobox.activity.AddressManagerActivity"
+180-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:125:13-60
+181            android:screenOrientation="portrait" />
+181-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:126:13-49
+182        <activity
+182-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:127:9-130:57
+183            android:name="com.iqonic.woobox.activity.EditProfileActivity"
+183-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:128:13-57
+184            android:screenOrientation="portrait"
+184-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:129:13-49
+185            android:windowSoftInputMode="stateHidden" />
+185-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:130:13-54
+186        <activity
+186-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:131:9-133:52
+187            android:name="com.iqonic.woobox.activity.EmailActivity"
+187-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:132:13-51
+188            android:screenOrientation="portrait" />
+188-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:133:13-49
+189        <activity
+189-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:134:9-136:52
+190            android:name="com.iqonic.woobox.activity.ContactUsActivity"
+190-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:135:13-55
+191            android:screenOrientation="portrait" />
+191-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:136:13-49
+192        <activity
+192-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:137:9-139:52
+193            android:name="com.iqonic.woobox.activity.FAQActivity"
+193-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:138:13-49
+194            android:screenOrientation="portrait" />
+194-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:139:13-49
+195        <activity
+195-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:140:9-142:52
+196            android:name="com.iqonic.woobox.activity.SettingActivity"
+196-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:141:13-53
+197            android:screenOrientation="portrait" />
+197-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:142:13-49
+198        <activity
+198-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:143:9-145:52
+199            android:name="com.iqonic.woobox.activity.CardActivity"
+199-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:144:13-50
+200            android:screenOrientation="portrait" />
+200-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:145:13-49
+201        <activity
+201-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:146:9-148:52
+202            android:name="com.iqonic.woobox.activity.HelpActivity"
+202-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:147:13-50
+203            android:screenOrientation="portrait" />
+203-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:148:13-49
+204        <activity
+204-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:149:9-151:52
+205            android:name="com.iqonic.woobox.activity.OfferActivity"
+205-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:150:13-51
+206            android:screenOrientation="portrait" />
+206-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:151:13-49
+207        <activity
+207-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:152:9-153:51
+208            android:name="com.iqonic.woobox.activity.ReviewsActivity"
+208-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:152:19-59
+209            android:screenOrientation="portrait" />
+209-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:153:13-49
+210
+211        <meta-data
+211-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:155:9-157:60
+212            android:name="firebase_crash_collection_enabled"
+212-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:156:13-61
+213            android:value="@bool/FIREBASE_CRASH_ENABLED" />
+213-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:157:13-57
+214
+215        <provider
+216            android:name="androidx.core.content.FileProvider"
+216-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:160:13-62
+217            android:authorities="com.TemerLoh.wooboxTestApp.provider"
+217-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:161:13-60
+218            android:exported="false"
+218-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:162:13-37
+219            android:grantUriPermissions="true" >
+219-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:163:13-47
+220            <meta-data
+220-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:164:13-166:48
+221                android:name="android.support.FILE_PROVIDER_PATHS"
+221-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:165:17-67
+222                android:resource="@xml/path" />
+222-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:166:17-45
+223        </provider>
+224
+225        <!-- Enable only if you are want Onesignal support -->
+226        <meta-data
+226-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:170:9-172:39
+227            android:name="com.onesignal.NotificationOpened.DEFAULT"
+227-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:171:13-68
+228            android:value="DISABLE" />
+228-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:172:13-36
+229
+230        <activity android:name="com.facebook.CustomTabMainActivity" />
+230-->[com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+230-->[com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+231        <activity
+231-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+232            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+232-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+233            android:excludeFromRecents="true"
+233-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+234            android:exported="true"
+234-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+235            android:launchMode="singleTask"
+235-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+236            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+236-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+238
+239        <service
+239-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+240            android:name="com.google.firebase.components.ComponentDiscoveryService"
+240-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+242            android:exported="false" >
+242-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+243            <meta-data
+243-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+244                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+244-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+246            <meta-data
+246-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+247                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+247-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+249            <meta-data
+249-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+250                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+250-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+252            <meta-data
+252-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+253                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+253-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+255            <meta-data
+255-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+256                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+256-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+257                android:value="com.google.firebase.components.ComponentRegistrar" />
+257-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+258        </service>
+259
+260        <meta-data
+260-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:49:9-51:51
+261            android:name="onesignal_app_id"
+261-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:50:13-44
+262            android:value="2b3eace3-4c4f-4a11-834a-b32d620cc374" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+262-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:51:13-48
+263        <meta-data
+263-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:53:9-55:70
+264            android:name="onesignal_google_project_number"
+264-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:54:13-59
+265            android:value="str:REMOTE" />
+265-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:55:13-67
+266
+267        <receiver
+267-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:57:9-67:20
+268            android:name="com.onesignal.GcmBroadcastReceiver"
+268-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:58:13-62
+269            android:permission="com.google.android.c2dm.permission.SEND" >
+269-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:59:13-73
+270
+271            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+272            <intent-filter android:priority="999" >
+272-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:62:13-66:29
+272-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:62:28-50
+273                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+273-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:63:17-81
+273-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:63:25-78
+274
+275                <category android:name="com.TemerLoh.wooboxTestApp" />
+275-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:65:17-61
+275-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:65:27-58
+276            </intent-filter>
+277        </receiver>
+278        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+278-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:68:9-77
+278-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:68:19-74
+279
+280        <service android:name="com.onesignal.GcmIntentService" />
+280-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:70:9-66
+280-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:70:18-63
+281        <service
+281-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:71:9-73:72
+282            android:name="com.onesignal.GcmIntentJobService"
+282-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:72:13-61
+283            android:permission="android.permission.BIND_JOB_SERVICE" />
+283-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:73:13-69
+284        <service
+284-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:74:9-76:72
+285            android:name="com.onesignal.RestoreJobService"
+285-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:75:13-59
+286            android:permission="android.permission.BIND_JOB_SERVICE" />
+286-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:76:13-69
+287        <service
+287-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:77:9-79:72
+288            android:name="com.onesignal.RestoreKickoffJobService"
+288-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:78:13-66
+289            android:permission="android.permission.BIND_JOB_SERVICE" />
+289-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:79:13-69
+290        <service
+290-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:80:9-82:43
+291            android:name="com.onesignal.SyncService"
+291-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:81:13-53
+292            android:stopWithTask="true" />
+292-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:82:13-40
+293        <service
+293-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:83:9-85:72
+294            android:name="com.onesignal.SyncJobService"
+294-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:84:13-56
+295            android:permission="android.permission.BIND_JOB_SERVICE" />
+295-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:85:13-69
+296
+297        <activity
+297-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:87:9-89:75
+298            android:name="com.onesignal.PermissionsActivity"
+298-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:88:13-61
+299            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+299-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:89:13-72
+300
+301        <service android:name="com.onesignal.NotificationRestoreService" />
+301-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:91:9-76
+301-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:91:18-73
+302
+303        <receiver android:name="com.onesignal.BootUpReceiver" >
+303-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:93:9-98:20
+303-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:93:19-62
+304            <intent-filter>
+304-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:94:13-97:29
+305                <action android:name="android.intent.action.BOOT_COMPLETED" />
+305-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:95:17-79
+305-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:95:25-76
+306                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+306-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:96:17-82
+306-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:96:25-79
+307            </intent-filter>
+308        </receiver>
+309        <receiver android:name="com.onesignal.UpgradeReceiver" >
+309-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:99:9-103:20
+309-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:99:19-63
+310            <intent-filter>
+310-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:100:13-102:29
+311                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+311-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:101:17-84
+311-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:101:25-81
+312            </intent-filter>
+313        </receiver>
+314        <!--
+315             FirebaseMessagingService performs security checks at runtime,
+316             but set to not exported to explicitly avoid allowing another app to call it.
+317        -->
+318        <service
+318-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+319            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+319-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+320            android:exported="false" >
+320-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+321            <intent-filter android:priority="-500" >
+321-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:31:13-33:29
+321-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:31:28-51
+322                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+322-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:32:17-78
+322-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:32:25-75
+323            </intent-filter>
+324        </service>
+325
+326        <provider
+326-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+327            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+327-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+328            android:authorities="com.TemerLoh.wooboxTestApp.crashlyticsinitprovider"
+328-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+329            android:exported="false"
+329-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+330            android:initOrder="90" />
+330-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+331
+332        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+332-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:12:9-16:20
+332-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:12:19-63
+333            <intent-filter>
+333-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:13:13-15:29
+334                <action android:name="rzp.device_token.share" />
+334-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:14:17-65
+334-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:14:25-62
+335            </intent-filter>
+336        </receiver>
+337
+338        <activity
+338-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:18:9-29:20
+339            android:name="com.razorpay.CheckoutActivity"
+339-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:19:13-57
+340            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+340-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:20:13-83
+341            android:theme="@style/CheckoutTheme" >
+341-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:21:13-49
+342            <intent-filter>
+342-->[com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:22:13-28:29
+343                <action android:name="android.intent.action.MAIN" />
+343-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:56:17-69
+343-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:56:25-66
+344
+345                <data
+345-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:40:17-75
+346                    android:host="rzp.io"
+347                    android:scheme="io.rzp" />
+347-->D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:40:23-72
+348            </intent-filter>
+349        </activity>
+350        <activity
+350-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+351            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+351-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+352            android:excludeFromRecents="true"
+352-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+353            android:exported="false"
+353-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+354            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+354-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+355        <!--
+356            Service handling Google Sign-In user revocation. For apps that do not integrate with
+357            Google Sign-In, this service will never be started.
+358        -->
+359        <service
+359-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+360            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+360-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+361            android:exported="true"
+361-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+362            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+362-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+363
+364        <receiver
+364-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+365            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+365-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+366            android:exported="true"
+366-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+367            android:permission="com.google.android.c2dm.permission.SEND" >
+367-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+368            <intent-filter>
+368-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+369                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+369-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:63:17-81
+369-->[com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:63:25-78
+370            </intent-filter>
+371        </receiver>
+372
+373        <activity
+373-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+374            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+374-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+375            android:exported="false"
+375-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+376            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+376-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+377
+378        <provider
+378-->[com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+379            android:name="com.google.firebase.provider.FirebaseInitProvider"
+379-->[com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+380            android:authorities="com.TemerLoh.wooboxTestApp.firebaseinitprovider"
+380-->[com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+381            android:exported="false"
+381-->[com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+382            android:initOrder="100" />
+382-->[com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+383
+384        <receiver
+384-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+385            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+385-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+386            android:enabled="true"
+386-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+387            android:exported="false" >
+387-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+388        </receiver>
+389        <receiver
+389-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+390            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+390-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+391            android:enabled="true"
+391-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+392            android:exported="true"
+392-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+393            android:permission="android.permission.INSTALL_PACKAGES" >
+393-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+394            <intent-filter>
+394-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+395                <action android:name="com.android.vending.INSTALL_REFERRER" />
+395-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+395-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+396            </intent-filter>
+397        </receiver>
+398
+399        <service
+399-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+400            android:name="com.google.android.gms.measurement.AppMeasurementService"
+400-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+401            android:enabled="true"
+401-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+402            android:exported="false" />
+402-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+403        <service
+403-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+404            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+404-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+405            android:enabled="true"
+405-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+406            android:exported="false"
+406-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+407            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+407-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+408        <activity
+408-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:29:9-33:64
+409            android:name="com.google.android.gms.ads.AdActivity"
+409-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:30:13-65
+410            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+410-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:31:13-122
+411            android:exported="false"
+411-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:32:13-37
+412            android:theme="@android:style/Theme.Translucent" />
+412-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:33:13-61
+413
+414        <provider
+414-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:35:9-39:39
+415            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+415-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:36:13-76
+416            android:authorities="com.TemerLoh.wooboxTestApp.mobileadsinitprovider"
+416-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:37:13-73
+417            android:exported="false"
+417-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:38:13-37
+418            android:initOrder="100" />
+418-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:39:13-36
+419
+420        <meta-data
+420-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+421            android:name="com.google.android.gms.version"
+421-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+422            android:value="@integer/google_play_services_version" />
+422-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+423        <!--
+424         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+425         with the application context. This config is merged in with the host app's manifest,
+426         but there can only be one provider with the same authority activated at any given
+427         point; so if the end user has two or more different apps that use Facebook SDK, only the
+428         first one will be able to use the provider. To work around this problem, we use the
+429         following placeholder in the authority to identify each host application as if it was
+430         a completely different provider.
+431        -->
+432        <provider
+432-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+433            android:name="com.facebook.internal.FacebookInitProvider"
+433-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+434            android:authorities="com.TemerLoh.wooboxTestApp.FacebookInitProvider"
+434-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+435            android:exported="false" />
+435-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+436
+437        <receiver
+437-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+438            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+438-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+439            android:exported="false" >
+439-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+440            <intent-filter>
+440-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+441                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+441-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+441-->[com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+442            </intent-filter>
+443        </receiver>
+444
+445        <service
+445-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+446            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+446-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+447            android:exported="false" >
+447-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+448            <meta-data
+448-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+449                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+449-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+450                android:value="cct" />
+450-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+451        </service>
+452        <service
+452-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+453            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+453-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+454            android:exported="false"
+454-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+455            android:permission="android.permission.BIND_JOB_SERVICE" >
+455-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+456        </service>
+457
+458        <receiver
+458-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+459            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+459-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+460            android:exported="false" />
+460-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+461    </application>
+462
+463</manifest>

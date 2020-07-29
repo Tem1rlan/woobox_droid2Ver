@@ -1,0 +1,1320 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:159:9-167:20
+	android:grantUriPermissions
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:163:13-47
+	android:authorities
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:161:13-60
+	android:exported
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:162:13-37
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:160:13-62
+manifest
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1902390f9463c108dbdec8fc605e7d6d\android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\881005fa27297d57aae1f34451aaafdc\databinding-adapters-3.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\616b500cc0bd665df4008b04823c3ea1\databinding-runtime-3.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\569df5fa5188dae8804b0cc0018bf5c6\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\71266721c4ad465cfa457b4bce9d3e0c\jetified-calligraphy-2.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fd01de4a5bad1be4f436093606fa7746\jetified-facebook-login-4.42.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c9cda4237f9adb5d6e941f8ffa05005f\lottie-3.0.7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.2.0-alpha01] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\29035d95cf07564818f1b456d0567e91\appcompat-1.2.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a34b2f3022ebc1d78f694534ffdf17ed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:2:1-106:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d2511a19089a7e3f58cf875bf88379ba\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\55e9fd29d71cfb271c12654fe71e1799\core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c8e8b8276744238a90e1b1a306d3a44a\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\48cb35678648e2252a986ceafc22403e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b6835e57af64d8e89123c0b5050fa5e5\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a4fb8ee6772128a49ef2acde9b32e484\jetified-play-services-ads-18.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\269e3be119b9db7e9f9c10894edfd452\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9663d57dba7fd60de5c72c02ab817c04\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f03a12f6d392ffe57fff4d774bf7b666\firebase-core-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bb169891a3615d3bfadfb0371ab91d53\firebase-analytics-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d169ec51909d5ca7e9e39a3bf30eeea0\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:2:1-12:12
+MERGED from [nl.dionsegijn:konfetti:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a1e23bf510c76e7ff66688f6566dc0f6\konfetti-1.1.3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\463948424463642fbdd9db7e39452f2a\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8a7e43497ced9b3dd8ae2f389388cf22\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\be3e0a48f43872e88b250cff4256f8ea\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\85e14bf14a7238bed4abeebf2bde6c0a\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e9af779dc03a1a1c68e967d6fbc3a38\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6fd94f5fb92516606ff4b6c655bb9e5e\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f5182342007382f8a87d18fca01cf10c\play-services-gass-18.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e29dd83ded88e50fc033da83f782b195\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8d287b25ff9561b159972b950bac4384\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\14750b3d1ac57cd41201efc39f63a23d\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3907cec0ae40898e3a5b884fd4f26058\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\74905c91d7556b31a1ef68186055e81c\play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\408e5ae549ba9ef10633b2610f63dd9a\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b9941707b844c5ea43365892cb60fec5\play-services-measurement-base-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\443b43d5e48ee195824c0c411eb7b04e\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha01] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a8a96c995798eab65a243a2ebb0eb047\appcompat-resources-1.2.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\17b0ec37875626622dd4bd782d532b92\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\dcf3898eaeffe34fc930c732d131d8cf\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2d83cbe628565c05413347d4c59aa649\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0233b51f2d428756dfa88c59eb9addee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3cd0b6d2ee5a622d52f6d009cb6cc70a\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d1c4eb66110ae3e7997f1a93c19806b8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a53e8ab4dba56fe6f0dd2204dfa41f47\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8c0802f90bca972ad0a6bce433b8e323\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd5367c218a93de8a05c1afd1865d8c3\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b43363c7d4b64776ca5580f2cd666e33\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0d1a24ec7f772044aab59c35f5946c82\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\72e8e14cf9c8fe97d05d56b0e7724fa9\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d734702e6e8a3b7d70676ab81a41aeba\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fc6f3d5cb977abef30af5679c1362da2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\5b0b55cf42707e417274f3a4ce44b74a\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9e82e7b1d4ab5f696531687d84aa20fb\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e41c836fb4ec34b14d9e61af32bcd89\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\daaf588cc6b545f8bfb5d1efbbe49b99\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0468420b44571aa00c63d8556e490a6f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fae1b6e1b226c39f826ad8447e2f3164\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\85a9b1c12b51861522025f8c5214ec90\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\355a0e0b1843eada5d9ebda89b04038f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e3a9cb0e1decbf7f6a3f7999a0cfccdd\firebase-encoders-json-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\27fa604a88ec5a14ba617c94821c68cb\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d897d90b37a6105f4ece3a146fe40d66\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ea8ec19095df2beaca31c9cfd3b62c4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\366a579d39511f7f1cf522293100783d\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b23d4e131c408268e95905890ea1cae7\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\72e948d403e21d738c9fbfc5a3c44625\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\5dd5b0183f1f70fb85dd6d3b0f9bb7f4\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6f221347a28bebaa8bc6181a71e0602e\transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\42dacb10f7e9ea2f0991912f71894930\play-services-ads-base-18.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:22:1-33:12
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+	package
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:1-175:12
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:16:5-67
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:9:5-67
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:10:22-77
+application
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:12:5-173:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\569df5fa5188dae8804b0cc0018bf5c6\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\569df5fa5188dae8804b0cc0018bf5c6\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\71266721c4ad465cfa457b4bce9d3e0c\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\71266721c4ad465cfa457b4bce9d3e0c\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fd01de4a5bad1be4f436093606fa7746\jetified-facebook-login-4.42.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fd01de4a5bad1be4f436093606fa7746\jetified-facebook-login-4.42.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c9cda4237f9adb5d6e941f8ffa05005f\lottie-3.0.7\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c9cda4237f9adb5d6e941f8ffa05005f\lottie-3.0.7\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:28:5-35:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a34b2f3022ebc1d78f694534ffdf17ed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a34b2f3022ebc1d78f694534ffdf17ed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:48:5-104:19
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:48:5-104:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9663d57dba7fd60de5c72c02ab817c04\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9663d57dba7fd60de5c72c02ab817c04\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f03a12f6d392ffe57fff4d774bf7b666\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f03a12f6d392ffe57fff4d774bf7b666\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bb169891a3615d3bfadfb0371ab91d53\firebase-analytics-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bb169891a3615d3bfadfb0371ab91d53\firebase-analytics-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:18:5-24:19
+MERGED from [nl.dionsegijn:konfetti:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a1e23bf510c76e7ff66688f6566dc0f6\konfetti-1.1.3\AndroidManifest.xml:11:5-53
+MERGED from [nl.dionsegijn:konfetti:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a1e23bf510c76e7ff66688f6566dc0f6\konfetti-1.1.3\AndroidManifest.xml:11:5-53
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:11:5-30:19
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:11:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8a7e43497ced9b3dd8ae2f389388cf22\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8a7e43497ced9b3dd8ae2f389388cf22\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\be3e0a48f43872e88b250cff4256f8ea\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\be3e0a48f43872e88b250cff4256f8ea\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6fd94f5fb92516606ff4b6c655bb9e5e\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6fd94f5fb92516606ff4b6c655bb9e5e\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f5182342007382f8a87d18fca01cf10c\play-services-gass-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f5182342007382f8a87d18fca01cf10c\play-services-gass-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e29dd83ded88e50fc033da83f782b195\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e29dd83ded88e50fc033da83f782b195\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8d287b25ff9561b159972b950bac4384\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8d287b25ff9561b159972b950bac4384\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\14750b3d1ac57cd41201efc39f63a23d\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\14750b3d1ac57cd41201efc39f63a23d\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3907cec0ae40898e3a5b884fd4f26058\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3907cec0ae40898e3a5b884fd4f26058\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\74905c91d7556b31a1ef68186055e81c\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\74905c91d7556b31a1ef68186055e81c\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\408e5ae549ba9ef10633b2610f63dd9a\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\408e5ae549ba9ef10633b2610f63dd9a\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b9941707b844c5ea43365892cb60fec5\play-services-measurement-base-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b9941707b844c5ea43365892cb60fec5\play-services-measurement-base-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:28:5-51:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e41c836fb4ec34b14d9e61af32bcd89\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e41c836fb4ec34b14d9e61af32bcd89\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\355a0e0b1843eada5d9ebda89b04038f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\355a0e0b1843eada5d9ebda89b04038f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\42dacb10f7e9ea2f0991912f71894930\play-services-ads-base-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\42dacb10f7e9ea2f0991912f71894930\play-services-ads-base-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:17:9-41
+	android:fullBackupContent
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:20:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:13:9-34
+activity#com.iqonic.woobox.activity.BlogDetailActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:22:9-23:51
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:22:19-62
+activity#com.iqonic.woobox.activity.AboutActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:24:9-25:51
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:24:19-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:26:9-27:54
+	android:value
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:27:13-52
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:26:20-65
+activity#com.facebook.FacebookActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:29:9-32:48
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:32:13-45
+	android:configChanges
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:30:13-113
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:29:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:33:9-42:20
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:34:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:36:13-41:29
+action#android.intent.action.VIEW
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:39:27-75
+data
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:40:17-75
+	android:scheme
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:40:23-72
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:44:9-46:53
+	android:value
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:46:13-50
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:45:13-69
+meta-data#com.razorpay.ApiKey
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:47:9-49:55
+	android:value
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:48:13-47
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:50:9-51:58
+	android:theme
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:50:19-82
+activity#com.iqonic.woobox.activity.SplashActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:52:9-61:20
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:53:13-52
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:55:13-60:29
+action#android.intent.action.MAIN
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:59:27-74
+activity#com.iqonic.woobox.activity.SubCategoryActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:62:9-64:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:63:13-57
+activity#com.iqonic.woobox.activity.ProductDetailActivityNew
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:65:9-67:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:67:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:66:13-62
+activity#com.iqonic.woobox.AppBaseActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:68:9-53
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:68:19-50
+activity#com.iqonic.woobox.activity.SignInUpActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:69:9-72:67
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:71:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:72:13-64
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:70:13-54
+activity#com.iqonic.woobox.activity.OTPActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:73:9-75:58
+	android:windowSoftInputMode
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:75:13-55
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:74:13-49
+activity#com.iqonic.woobox.activity.WalkThroughActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:77:13-57
+activity#com.iqonic.woobox.activity.DashBoardActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:79:9-82:55
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:81:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:82:13-52
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:80:13-55
+activity#com.iqonic.woobox.activity.OrderDescriptionActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:84:13-62
+activity#com.iqonic.woobox.activity.OrderActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:87:13-51
+activity#com.iqonic.woobox.activity.ProductDetailActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:89:9-92:51
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:92:13-49
+	android:theme
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:91:13-51
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:90:13-59
+activity#com.iqonic.woobox.activity.BlogActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:93:9-95:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:94:13-50
+activity#com.iqonic.woobox.activity.AddAddressActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:96:9-98:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:97:13-56
+activity#com.iqonic.woobox.activity.OrderSummaryActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:99:9-101:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:101:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:100:13-58
+activity#com.iqonic.woobox.activity.TrackItemActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:102:9-104:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:103:13-55
+activity#com.iqonic.woobox.activity.PaymentActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:105:9-107:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:107:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:106:13-53
+activity#com.iqonic.woobox.activity.AccountActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:108:9-111:57
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:110:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:111:13-54
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:109:13-53
+activity#com.iqonic.woobox.activity.MyCartActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:113:13-52
+activity#com.iqonic.woobox.activity.SearchActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:115:9-117:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:116:13-52
+activity#com.iqonic.woobox.activity.ViewAllProductActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:118:9-120:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:119:13-60
+activity#com.iqonic.woobox.activity.RewardActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:121:9-123:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:122:13-52
+activity#com.iqonic.woobox.activity.AddressManagerActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:124:9-126:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:125:13-60
+activity#com.iqonic.woobox.activity.EditProfileActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:127:9-130:57
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:130:13-54
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:128:13-57
+activity#com.iqonic.woobox.activity.EmailActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:132:13-51
+activity#com.iqonic.woobox.activity.ContactUsActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:135:13-55
+activity#com.iqonic.woobox.activity.FAQActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:137:9-139:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:138:13-49
+activity#com.iqonic.woobox.activity.SettingActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:140:9-142:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:141:13-53
+activity#com.iqonic.woobox.activity.CardActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:143:9-145:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:144:13-50
+activity#com.iqonic.woobox.activity.HelpActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:147:13-50
+activity#com.iqonic.woobox.activity.OfferActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:150:13-51
+activity#com.iqonic.woobox.activity.ReviewsActivity
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:152:9-153:51
+	android:screenOrientation
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:152:19-59
+meta-data#firebase_crash_collection_enabled
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:155:9-157:60
+	android:value
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:157:13-57
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:156:13-61
+meta-data#com.onesignal.NotificationOpened.DEFAULT
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:170:9-172:39
+	android:value
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:172:13-36
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:171:13-68
+uses-sdk
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1902390f9463c108dbdec8fc605e7d6d\android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1902390f9463c108dbdec8fc605e7d6d\android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\881005fa27297d57aae1f34451aaafdc\databinding-adapters-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\881005fa27297d57aae1f34451aaafdc\databinding-adapters-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\616b500cc0bd665df4008b04823c3ea1\databinding-runtime-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\616b500cc0bd665df4008b04823c3ea1\databinding-runtime-3.5.2\AndroidManifest.xml:22:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\569df5fa5188dae8804b0cc0018bf5c6\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\569df5fa5188dae8804b0cc0018bf5c6\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\71266721c4ad465cfa457b4bce9d3e0c\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\71266721c4ad465cfa457b4bce9d3e0c\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fd01de4a5bad1be4f436093606fa7746\jetified-facebook-login-4.42.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fd01de4a5bad1be4f436093606fa7746\jetified-facebook-login-4.42.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c9cda4237f9adb5d6e941f8ffa05005f\lottie-3.0.7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c9cda4237f9adb5d6e941f8ffa05005f\lottie-3.0.7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.2.0-alpha01] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\29035d95cf07564818f1b456d0567e91\appcompat-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0-alpha01] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\29035d95cf07564818f1b456d0567e91\appcompat-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a34b2f3022ebc1d78f694534ffdf17ed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a34b2f3022ebc1d78f694534ffdf17ed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:4:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d2511a19089a7e3f58cf875bf88379ba\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d2511a19089a7e3f58cf875bf88379ba\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\55e9fd29d71cfb271c12654fe71e1799\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\55e9fd29d71cfb271c12654fe71e1799\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c8e8b8276744238a90e1b1a306d3a44a\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c8e8b8276744238a90e1b1a306d3a44a\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\48cb35678648e2252a986ceafc22403e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\48cb35678648e2252a986ceafc22403e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b6835e57af64d8e89123c0b5050fa5e5\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b6835e57af64d8e89123c0b5050fa5e5\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a4fb8ee6772128a49ef2acde9b32e484\jetified-play-services-ads-18.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a4fb8ee6772128a49ef2acde9b32e484\jetified-play-services-ads-18.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\269e3be119b9db7e9f9c10894edfd452\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\269e3be119b9db7e9f9c10894edfd452\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9663d57dba7fd60de5c72c02ab817c04\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9663d57dba7fd60de5c72c02ab817c04\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f03a12f6d392ffe57fff4d774bf7b666\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f03a12f6d392ffe57fff4d774bf7b666\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bb169891a3615d3bfadfb0371ab91d53\firebase-analytics-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bb169891a3615d3bfadfb0371ab91d53\firebase-analytics-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:12:5-14:63
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d169ec51909d5ca7e9e39a3bf30eeea0\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d169ec51909d5ca7e9e39a3bf30eeea0\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:8:5-10:41
+MERGED from [nl.dionsegijn:konfetti:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a1e23bf510c76e7ff66688f6566dc0f6\konfetti-1.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [nl.dionsegijn:konfetti:1.1.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a1e23bf510c76e7ff66688f6566dc0f6\konfetti-1.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:5:5-7:41
+MERGED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\463948424463642fbdd9db7e39452f2a\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\463948424463642fbdd9db7e39452f2a\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8a7e43497ced9b3dd8ae2f389388cf22\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8a7e43497ced9b3dd8ae2f389388cf22\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\be3e0a48f43872e88b250cff4256f8ea\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\be3e0a48f43872e88b250cff4256f8ea\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\85e14bf14a7238bed4abeebf2bde6c0a\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\85e14bf14a7238bed4abeebf2bde6c0a\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e9af779dc03a1a1c68e967d6fbc3a38\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e9af779dc03a1a1c68e967d6fbc3a38\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6fd94f5fb92516606ff4b6c655bb9e5e\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6fd94f5fb92516606ff4b6c655bb9e5e\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f5182342007382f8a87d18fca01cf10c\play-services-gass-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\f5182342007382f8a87d18fca01cf10c\play-services-gass-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e29dd83ded88e50fc033da83f782b195\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e29dd83ded88e50fc033da83f782b195\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8d287b25ff9561b159972b950bac4384\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8d287b25ff9561b159972b950bac4384\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\14750b3d1ac57cd41201efc39f63a23d\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\14750b3d1ac57cd41201efc39f63a23d\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3907cec0ae40898e3a5b884fd4f26058\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3907cec0ae40898e3a5b884fd4f26058\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\74905c91d7556b31a1ef68186055e81c\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\74905c91d7556b31a1ef68186055e81c\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\408e5ae549ba9ef10633b2610f63dd9a\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\408e5ae549ba9ef10633b2610f63dd9a\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b9941707b844c5ea43365892cb60fec5\play-services-measurement-base-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b9941707b844c5ea43365892cb60fec5\play-services-measurement-base-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\443b43d5e48ee195824c0c411eb7b04e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\443b43d5e48ee195824c0c411eb7b04e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha01] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a8a96c995798eab65a243a2ebb0eb047\appcompat-resources-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0-alpha01] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a8a96c995798eab65a243a2ebb0eb047\appcompat-resources-1.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\17b0ec37875626622dd4bd782d532b92\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\17b0ec37875626622dd4bd782d532b92\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\dcf3898eaeffe34fc930c732d131d8cf\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\dcf3898eaeffe34fc930c732d131d8cf\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2d83cbe628565c05413347d4c59aa649\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2d83cbe628565c05413347d4c59aa649\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0233b51f2d428756dfa88c59eb9addee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0233b51f2d428756dfa88c59eb9addee\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3cd0b6d2ee5a622d52f6d009cb6cc70a\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\3cd0b6d2ee5a622d52f6d009cb6cc70a\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d1c4eb66110ae3e7997f1a93c19806b8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d1c4eb66110ae3e7997f1a93c19806b8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a53e8ab4dba56fe6f0dd2204dfa41f47\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a53e8ab4dba56fe6f0dd2204dfa41f47\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8c0802f90bca972ad0a6bce433b8e323\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8c0802f90bca972ad0a6bce433b8e323\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd5367c218a93de8a05c1afd1865d8c3\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd5367c218a93de8a05c1afd1865d8c3\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b43363c7d4b64776ca5580f2cd666e33\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b43363c7d4b64776ca5580f2cd666e33\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0d1a24ec7f772044aab59c35f5946c82\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0d1a24ec7f772044aab59c35f5946c82\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\72e8e14cf9c8fe97d05d56b0e7724fa9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\72e8e14cf9c8fe97d05d56b0e7724fa9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d734702e6e8a3b7d70676ab81a41aeba\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d734702e6e8a3b7d70676ab81a41aeba\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fc6f3d5cb977abef30af5679c1362da2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fc6f3d5cb977abef30af5679c1362da2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\5b0b55cf42707e417274f3a4ce44b74a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\5b0b55cf42707e417274f3a4ce44b74a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\c2f4b48e7bc235c0bba421096249fd9a\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9e82e7b1d4ab5f696531687d84aa20fb\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9e82e7b1d4ab5f696531687d84aa20fb\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e41c836fb4ec34b14d9e61af32bcd89\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\8e41c836fb4ec34b14d9e61af32bcd89\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\daaf588cc6b545f8bfb5d1efbbe49b99\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\daaf588cc6b545f8bfb5d1efbbe49b99\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0468420b44571aa00c63d8556e490a6f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\0468420b44571aa00c63d8556e490a6f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fae1b6e1b226c39f826ad8447e2f3164\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\fae1b6e1b226c39f826ad8447e2f3164\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\85a9b1c12b51861522025f8c5214ec90\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\85a9b1c12b51861522025f8c5214ec90\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\355a0e0b1843eada5d9ebda89b04038f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\355a0e0b1843eada5d9ebda89b04038f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e3a9cb0e1decbf7f6a3f7999a0cfccdd\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\e3a9cb0e1decbf7f6a3f7999a0cfccdd\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\27fa604a88ec5a14ba617c94821c68cb\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\27fa604a88ec5a14ba617c94821c68cb\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d897d90b37a6105f4ece3a146fe40d66\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\d897d90b37a6105f4ece3a146fe40d66\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ea8ec19095df2beaca31c9cfd3b62c4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ea8ec19095df2beaca31c9cfd3b62c4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\366a579d39511f7f1cf522293100783d\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\366a579d39511f7f1cf522293100783d\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b23d4e131c408268e95905890ea1cae7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b23d4e131c408268e95905890ea1cae7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\72e948d403e21d738c9fbfc5a3c44625\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\72e948d403e21d738c9fbfc5a3c44625\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\5dd5b0183f1f70fb85dd6d3b0f9bb7f4\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\5dd5b0183f1f70fb85dd6d3b0f9bb7f4\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6f221347a28bebaa8bc6181a71e0602e\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\6f221347a28bebaa8bc6181a71e0602e\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\42dacb10f7e9ea2f0991912f71894930\play-services-ads-base-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\42dacb10f7e9ea2f0991912f71894930\play-services-ads-base-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\194115e4938c70ec4e437d44d1c24bd7\crashlytics-core-2.7.0\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\1d0278b53915219b30520daf46ec728c\beta-1.2.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\df12233e5e40c739b0bd8ee7d929e635\jetified-answers-1.4.7\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9b7bc3abe2de5c5008a89b22bfcb6ca6\fabric-1.4.8\AndroidManifest.xml:27:5-43
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a4fb8ee6772128a49ef2acde9b32e484\jetified-play-services-ads-18.3.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:164:13-166:48
+	android:resource
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:166:17-45
+	android:name
+		ADDED from D:\Work\something_old\Woobox\AndroidAppSourceCode\woobox_droid2Ver\app\src\main\AndroidManifest.xml:165:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\b548685296232970462ac6865b224108\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\534ead25acb6c21677ef92022e931b3f\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:8:9-63
+permission#com.TemerLoh.wooboxTestApp.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:11:22-76
+uses-permission#com.TemerLoh.wooboxTestApp.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:11:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:17:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:18:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\cd0155662df9dae5dba859afccad70c6\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.TemerLoh.wooboxTestApp
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:65:27-58
+category#com.TemerLoh.wooboxTestApp
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:68:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:70:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:70:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:71:9-73:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:73:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:72:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:74:9-76:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:76:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:75:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:77:9-79:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:79:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:78:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:80:9-82:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:82:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:81:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:83:9-85:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:85:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:84:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:87:9-89:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:89:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:88:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:91:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:91:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:93:9-98:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:93:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:94:13-97:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:95:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:95:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:96:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:96:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:99:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:100:13-102:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:101:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.11.4] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\ae687a2c83c69f19778aa3b34d0f5ad9\jetified-OneSignal-3.11.4\AndroidManifest.xml:101:25-81
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:32:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\bd4bfe9f3c78ef4083a399e9da4ebf23\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\9bca018095b6e154b0907562b8818c50\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:12:9-16:20
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:12:19-63
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:13:13-15:29
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:14:17-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:14:25-62
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:18:9-29:20
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:20:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:19:13-57
+intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
+ADDED from [com.razorpay:checkout:1.5.12] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\7fcb42a42be1dc1203c2f614053eacd3\checkout-1.5.12\AndroidManifest.xml:22:13-28:29
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\11b6fb5ce61f6ae5c53f3b27d9797dde\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\52d06445ded73512a9fd7cbf5eb9fa7c\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\980145a10fea92f9d61253571f1ac242\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a9cf8308cd2fdb4cefb87cf41aa7f755\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\862a04ddda60766219a3213160b8fecf\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\57adf94ce2a0c97ff69fd9c3e0d9d086\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\89b48de46f9750908f17bb8f06fdfea7\play-services-measurement-impl-17.2.1\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\56283c9ea057756720692e40ec75f058\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\84b6abdc540980753b0571f7b3aa2434\play-services-ads-lite-18.3.0\AndroidManifest.xml:36:13-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\2b6df83832755f66bfe6f975ef02db26\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\47cec273c0319505f010d413b4575429\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\011516c94b730ed5f4b44c227cd82609\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\temir\.gradle\caches\transforms-2\files-2.1\a2e4fc13feb8dd41b0bc723aa5455770\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
